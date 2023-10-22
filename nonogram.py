@@ -1,17 +1,3 @@
-#############################################
-# FILE : nonogram
-# WRITER : Noga_Friedman , nogafri , 209010479
-# Exercise: ex8
-# DESCRIPTION: a program that solves nonograms
-# STUDENTS I DISCUSSED THE EXERCISE WITH: -
-# WEB PAGES I USED: -
-#############################################
-
-### task answer: ###
-# I chose to leave undecided squares as neutral (-1) - filling them as 1/0
-# is untrue to the constraints given and might lead to future false deductions.
-###################
-
 def constraint_satisfactions(n, blocks):  # 1
     """
     calculates all possible solutions of coloring a row with length n by
